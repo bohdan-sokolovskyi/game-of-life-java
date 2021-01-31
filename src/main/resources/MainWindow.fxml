@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="572.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <Canvas fx:id="canvas" height="448.0" layoutX="1.0" layoutY="118.0" width="598.0" />
+      <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Game of Life" wrappingWidth="77.896484375" />
+      <Button fx:id="startStopButton" layoutX="98.0" layoutY="10.0" mnemonicParsing="false" text="Start/Stop" />
+      <Button fx:id="stepButton" layoutX="192.0" layoutY="10.0" mnemonicParsing="false" text="Step" />
+      <Label fx:id="generationNum" layoutX="490.0" layoutY="14.0" text="0" />
+      <Button fx:id="zeroGenButton" layoutX="487.0" layoutY="35.0" mnemonicParsing="false" text="ZeroGen" />
+      <Text layoutX="415.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="generation: " />
+      <ToggleButton fx:id="editFieldToggleButton" layoutX="276.0" layoutY="10.0" mnemonicParsing="false" text="EditField" />
+   </children>
+</AnchorPane>
